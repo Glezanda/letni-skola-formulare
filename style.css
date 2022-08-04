@@ -43,7 +43,7 @@ button {
 
 .button:active {
 	background-color: #3e8e41;
-	box-shadow: 0 5px #666;
+	box-shadow: 0 5px rgb(32, 252, 7);
 	transform: translateY(4px);
 }
 
