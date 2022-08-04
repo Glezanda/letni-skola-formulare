@@ -9,7 +9,13 @@ function submit(event){
     let name = document.querySelector('#jmeno').value;
     let art = document.querySelector('#barva').value;
     let box = document.querySelector('#check').checked;
-    console.log(name+ ' ' + art + ' ' + box);
+    console.log(name+ ' ' + art);
+
+    if(box==true){
+        console.log('Good!');
+    }else{
+        console.log('Hopefully you agree for the next time.');
+    }
 }
 
 
