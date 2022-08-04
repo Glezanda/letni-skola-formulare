@@ -27,7 +27,6 @@ input {
 }
 
 button {
-	background-color: #39FF14;
 	color: black;
 	padding: 15px 25px;
 	font-size: 15px;
@@ -37,6 +36,7 @@ button {
 	border: none;
 	border-radius: 15px;
 	box-shadow: 0 9px #167205;
+	background-image: linear-gradient(#f62a06, #260476);
 }
 
 .button:hover {
@@ -48,7 +48,7 @@ button {
 	background-color: black;
 	box-shadow: black;
 	transform: translateY(4px);
-	color:#39FF14;
+	color:ghostwhite;
 }
 
 .glow {
