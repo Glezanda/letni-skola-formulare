@@ -5,6 +5,9 @@ body {
 	font: 18px sans-serif;
 	background-color: black;
 }
-form{
+input{
 	background-color: greenyellow;
+}
+*{
+	color:greenyellow;
 }
