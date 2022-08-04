@@ -65,3 +65,9 @@ button {
 
 	}
 }
+
+#formular input:focus{
+	outline: 0;
+	border-color: green;
+	background-color: red;
+}
