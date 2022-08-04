@@ -52,12 +52,14 @@ button {
 	animation: glow 1s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes glow {
+@keyframes glow {
 	from {
-		text-shadow: 0 0 10px rgb(28, 231, 17), 0 0 20px rgb(11, 142, 212), 0 0 30px #0cbbe7, 0 0 40px #085b9b, 0 0 50px #113fe7, 0 0 60px #130757, 0 0 70px #100340;
+		text-shadow: rgb(37, 237, 121) 2px 5px;
+
 	}
 
 	to {
-		text-shadow: 0 0 20px rgb(53, 195, 31), 0 0 30px #0898e5, 0 0 40px #085776, 0 0 50px #52b9e6, 0 0 60px #2f64ea, 0 0 70px #623fe3, 0 0 80px #0e0b50;
+		text-shadow: rgb(38, 8, 233) 2px 5px;
+
 	}
 }
