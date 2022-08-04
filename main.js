@@ -12,7 +12,7 @@ function submit(event){
     console.log(name+ ' ' + art);
 
     if(box==true){
-        console.log('Good!');
+        console.log('We appreciate your acception!');
     }else{
         console.log('Hopefully you agree for the next time.');
     }
