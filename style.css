@@ -1,21 +1,31 @@
-html { box-sizing: border-box; }
-*, ::before, ::after { box-sizing: inherit; }
+html {
+	box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+	box-sizing: inherit;
+}
 
 body {
 	font: 18px sans-serif;
 	background-color: black;
 	text-align: center;
 }
-input{
+
+input {
 	background-color: #39FF14;
-	color:black;
+	color: black;
 	text-align: center;
 }
-*{
-	color:#39FF14;
+
+* {
+	color: #39FF14;
 }
-button{
-	background-color:#39FF14;
+
+button {
+	background-color: #39FF14;
 	color: black;
 	padding: 15px 25px;
 	font-size: 15px;
@@ -26,10 +36,29 @@ button{
 	border-radius: 15px;
 	box-shadow: 0 9px #167205;
 }
-.button:hover {background-color: #3e8e41}
+
+.button:hover {
+	background-color: #3e8e41
+}
 
 .button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.glow {
+	color: #fff;
+	text-align: center;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+	from {
+		text-shadow: 0 0 10px rgb(28, 231, 17), 0 0 20px rgb(11, 212, 152), 0 0 30px #0cbbe7, 0 0 40px #085b9b, 0 0 50px #113fe7, 0 0 60px #130757, 0 0 70px #100340;
+	}
+
+	to {
+		text-shadow: 0 0 20px rgb(53, 195, 31), 0 0 30px #71e47a, 0 0 40px #20a95f, 0 0 50px #52b9e6, 0 0 60px #2f64ea, 0 0 70px #623fe3, 0 0 80px #0e0b50;
+	}
 }
