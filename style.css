@@ -40,13 +40,15 @@ button {
 }
 
 .button:hover {
-	background-color: #3e8e41
+	background-color: blue;
+	color:red;
 }
 
 .button:active {
-	background-color: #3e8e41;
-	box-shadow: 0 5px rgb(32, 252, 7);
+	background-color: black;
+	box-shadow: black;
 	transform: translateY(4px);
+	color:#39FF14;
 }
 
 .glow {
